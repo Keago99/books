@@ -14,3 +14,9 @@ table{
 th, tr, td{
     border: 1px solid black;
 }
+
+
+#closeModal{
+    margin-left: 130px;
+    margin-top: 20px;
+}
