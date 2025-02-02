@@ -1,0 +1,16 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table{
+    width: 100%;
+}
+
+th, tr, td{
+    border: 1px solid black;
+}
