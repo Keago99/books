@@ -20,9 +20,19 @@
     <button type="button" id="addBookButton">Add book</button>
     <dialog id="bookDialog">
         <form method="dialog">
-            <label for="bookName">Book name:</label>
-            <input type="text" id="bookName" name="bookName"><br>
-            <button type="button" id="closeModal">Close</button>
+            <div id="gridLayout">
+                <label for="bookName">Book name:</label>
+                <input type="text" id="bookName" name="bookName" class="modalInput"><br>
+                <label for="bookName">Book Author:</label>
+                <input type="text" id="bookAuthor" name="bookAuthor" class="modalInput"><br>
+                <label for="bookName">Amount of Pages:</label>
+                <input type="text" id="bookPages" name="bookPages" class="modalInput"><br>
+                <label for="bookName">Was the book read?:</label>
+                <input type="text" id="bookRead" name="BookRead" class="modalInput"><br>
+                <button type="button" id="addBookDialog">Add book</button>
+                <button type="button" id="closeBookDialog">Close</button>
+
+            </div>
         </form>
     </dialog>
 </body>

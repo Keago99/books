@@ -7,6 +7,10 @@ body{
     flex-direction: column;
 }
 
+button{
+    margin-top: 20px;
+}
+
 table{
     width: 100%;
 }
@@ -15,8 +19,15 @@ th, tr, td{
     border: 1px solid black;
 }
 
-
 #closeModal{
     margin-left: 130px;
     margin-top: 20px;
+}
+
+label{
+    margin-top: 15px;
+}
+
+#gridLayout{
+    display: grid;
 }
