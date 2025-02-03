@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>THE LIBRARY</h1>
-    <table>
+    <table id="mainTable">
         <tr>
             <th>Name</th>
             <th>Author</th>
@@ -28,7 +28,11 @@
                 <label for="bookName">Amount of Pages:</label>
                 <input type="text" id="bookPages" name="bookPages" class="modalInput"><br>
                 <label for="bookName">Was the book read?:</label>
-                <input type="text" id="bookRead" name="BookRead" class="modalInput"><br>
+                <select>
+                    <option value="default disabled">Have you read this book?</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select><br>
                 <button type="button" id="addBookDialog">Add book</button>
                 <button type="button" id="closeBookDialog">Close</button>
 

@@ -22,6 +22,17 @@ function addBookToLibrary(title, author, pages, read){
     myLibrary.push(bookToAdd);
 }
 
+function updateTable(){
+
+    const mainTable = document.getElementById("mainTable");
+    for (let book in myLibrary){
+        tableTitle = myLibrary[book][title];
+        tableAuth = myLibrary[book][author];
+        tablePages = myLibrary[book][pages];
+        
+    }
+}
+
 addBookButton.addEventListener("click", () => {
     bookDialog.showModal();
     bookDialog.classList.add()
