@@ -15,9 +15,13 @@
             <th>Author</th>
             <th>Pages</th>
             <th>Read</th>
+            <th>Removal</th>
         </tr>
+        <tbody id="tbody">
+
+        </tbody>
     </table>
-    <button type="button" id="addBookButton">Add book</button>
+    <button type="button" class="marginButton" id="addBookButton">Add book</button>
     <dialog id="bookDialog">
         <form method="dialog">
             <div id="gridLayout">
@@ -28,13 +32,13 @@
                 <label for="bookName">Amount of Pages:</label>
                 <input type="text" id="bookPages" name="bookPages" class="modalInput"><br>
                 <label for="bookName">Was the book read?:</label>
-                <select>
-                    <option value="default disabled">Have you read this book?</option>
+                <select id="bookRead" required>
+                    <option disabled selected value="">Have you read this book?</option>
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                 </select><br>
-                <button type="button" id="addBookDialog">Add book</button>
-                <button type="button" id="closeBookDialog">Close</button>
+                <button type="button" class="marginButton" id="addBookDialog">Add book</button>
+                <button type="button" class="marginButton" id="closeBookDialog">Close</button>
 
             </div>
         </form>

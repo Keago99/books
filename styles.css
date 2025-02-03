@@ -7,8 +7,13 @@ body{
     flex-direction: column;
 }
 
-button{
+.marginButton{
     margin-top: 20px;
+}
+
+.removeBookButton{
+    display: block;
+    margin: auto;
 }
 
 table{
